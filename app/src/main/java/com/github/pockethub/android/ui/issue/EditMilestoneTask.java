@@ -19,7 +19,7 @@ import com.github.pockethub.android.R;
 import com.github.pockethub.android.core.issue.IssueStore;
 import com.github.pockethub.android.rx.AutoDisposeUtils;
 import com.github.pockethub.android.rx.RxProgress;
-import com.github.pockethub.android.ui.BaseActivity;
+import com.github.pockethub.android.ui.base.BaseActivity;
 import com.google.auto.factory.AutoFactory;
 import com.google.auto.factory.Provided;
 import com.meisolsson.githubsdk.model.Issue;
@@ -88,7 +88,7 @@ public class EditMilestoneTask {
      */
     public EditMilestoneTask edit(Milestone milestone) {
         if (milestone != null) {
-            IssueRequest editedIssue = IssueRequest.builder().milestone(milestone.number().longValue()).build();
+            IssueRequest editedIssue = IssueRequest.builder().milestone(milestone.number()).build();
 
             store.editIssue(repositoryId, issueNumber, editedIssue)
                     .subscribeOn(Schedulers.io())

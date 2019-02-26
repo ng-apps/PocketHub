@@ -17,13 +17,13 @@ package com.github.pockethub.android.ui.issue;
 
 import android.app.Dialog;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.view.View;
 
 import com.github.pockethub.android.ui.item.dialog.AssigneeDialogItem;
 import com.meisolsson.githubsdk.model.User;
 import com.github.pockethub.android.R;
-import com.github.pockethub.android.ui.BaseActivity;
+import com.github.pockethub.android.ui.base.BaseActivity;
 import com.github.pockethub.android.ui.SingleChoiceDialogFragment;
 import com.github.pockethub.android.util.AvatarLoader;
 import com.xwray.groupie.GroupAdapter;

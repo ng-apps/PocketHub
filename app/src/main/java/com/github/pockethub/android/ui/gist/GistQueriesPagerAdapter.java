@@ -16,10 +16,10 @@
 package com.github.pockethub.android.ui.gist;
 
 import android.content.res.Resources;
-import android.support.v4.app.Fragment;
+import androidx.fragment.app.Fragment;
 
 import com.github.pockethub.android.R;
-import com.github.pockethub.android.ui.FragmentPagerAdapter;
+import com.github.pockethub.android.ui.base.FragmentPagerAdapter;
 
 /**
  * Pager adapter for different Gist queries

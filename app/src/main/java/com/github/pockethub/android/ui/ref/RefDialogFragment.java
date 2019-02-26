@@ -17,11 +17,11 @@ package com.github.pockethub.android.ui.ref;
 
 import android.app.Dialog;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.view.View;
 
 import com.github.pockethub.android.R;
-import com.github.pockethub.android.ui.BaseActivity;
+import com.github.pockethub.android.ui.base.BaseActivity;
 import com.github.pockethub.android.ui.SingleChoiceDialogFragment;
 import com.github.pockethub.android.ui.item.dialog.RefDialogItem;
 import com.meisolsson.githubsdk.model.git.GitReference;
@@ -29,9 +29,6 @@ import com.xwray.groupie.GroupAdapter;
 import com.xwray.groupie.Item;
 
 import java.util.ArrayList;
-import java.util.Collection;
-
-import io.reactivex.Observable;
 
 import static android.app.Activity.RESULT_OK;
 

@@ -17,13 +17,13 @@ package com.github.pockethub.android.ui.user;
 
 import android.content.res.Resources;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
 import android.view.ViewGroup;
 
 import com.meisolsson.githubsdk.model.User;
 import com.github.pockethub.android.R;
-import com.github.pockethub.android.ui.FragmentPagerAdapter;
+import com.github.pockethub.android.ui.base.FragmentPagerAdapter;
 import com.github.pockethub.android.ui.repo.RepositoryListFragment;
 
 import java.util.HashSet;

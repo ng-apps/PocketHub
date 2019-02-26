@@ -17,12 +17,12 @@ package com.github.pockethub.android.ui.issue;
 
 import android.app.Dialog;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 import android.view.View;
 
 import com.github.pockethub.android.R;
-import com.github.pockethub.android.ui.BaseActivity;
-import com.github.pockethub.android.ui.DialogFragmentHelper;
+import com.github.pockethub.android.ui.base.BaseActivity;
+import com.github.pockethub.android.ui.base.DialogFragmentHelper;
 import com.github.pockethub.android.ui.item.dialog.LabelDialogItem;
 import com.meisolsson.githubsdk.model.Label;
 import com.xwray.groupie.GroupAdapter;
@@ -31,10 +31,7 @@ import com.xwray.groupie.OnItemClickListener;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collection;
 import java.util.List;
-
-import io.reactivex.Observable;
 
 import static android.app.Activity.RESULT_OK;
 
